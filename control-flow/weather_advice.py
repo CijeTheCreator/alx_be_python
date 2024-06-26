@@ -1,4 +1,4 @@
-question1 = "What's the weather like today? (sunny/rainy/cold): "
+question1 = 'What\'s the weather like today? (sunny/rainy/cold):'
 answerSunny = "Wear a t-shirt and sunglasses."
 answerRainy = "Don't forget your umbrella and a raincoat."
 answerCold = "Make sure to wear a warm coat and scarf."
