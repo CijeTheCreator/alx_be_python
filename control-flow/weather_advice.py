@@ -4,12 +4,12 @@ answerRainy = "Don't forget your umbrella and a raincoat."
 answerCold = "Make sure to wear a warm coat and scarf."
 answerUnknown = "Sorry, I don't have recommendations for this weather."
 
-answer = input("What's the weather like today? (sunny/rainy/cold): ")
-if answer == "sunny":
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
+if weather == "sunny":
     print(answerSunny)
-elif answer == "rainy":
+elif weather == "rainy":
     print(answerRainy)
-elif answer == "cold":
+elif weather == "cold":
     print(answerCold)
 else:
     print(answerUnknown)
